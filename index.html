@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Recipe Finder & Meal Planner</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Recipe Finder & Meal Planner</h1>
+
+  <div id="controls">
+    <input type="text" id="searchInput" placeholder="Search for a meal...">
+    <button id="searchBtn">Search</button>
+
+    <select id="categorySelect">
+      <option value="">--Select Category--</option>
+      <option value="Seafood">Seafood</option>
+      <option value="Vegetarian">Vegetarian</option>
+      <option value="Beef">Beef</option>
+      <option value="Chicken">Chicken</option>
+      <option value="Dessert">Dessert</option>
+    </select>
+
+    <button id="randomBtn">Surprise Me!</button>
+  </div>
+
+  <div id="mealList"></div>
+  <div id="mealDetails"></div>
+
+  <h2>My Weekly Meal Plan</h2>
+  <ul id="mealPlanList"></ul>
+
+  <button id="toggleTheme">Toggle Dark/Light Mode</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
