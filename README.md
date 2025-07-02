@@ -2,6 +2,8 @@
 
 A Single Page Application (SPA) that allows users to search for meals, filter by category, get a random meal suggestion, and manage a personal Weekly Meal Plan. The app uses TheMealDB API and JSON Server for persistent storage.
 
+![Screenshot 2025-06-26 003735](https://github.com/user-attachments/assets/100b3812-41b4-40de-8a49-307d3c2d33bc)
+
 ## Features
 
 - 🔍 **Search Meals** by name or main ingredient
