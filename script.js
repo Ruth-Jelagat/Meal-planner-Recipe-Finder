@@ -144,7 +144,7 @@ function displayMealPlan(plan) {
 
 function addToMealPlan(meal) {
   // Prevent duplicates
-  fetch(`${baseURL}?id=${meal.idMeal}`)
+  fetch(`${baseURL}?mealId=${meal.idMeal}`)
     .then(res => res.json())
     .then(existing => {
       if (existing.length === 0) {
@@ -153,7 +153,7 @@ function addToMealPlan(meal) {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify({
-            id: meal.idMeal,
+            mealId: meal.idMeal,
             strMeal: meal.strMeal,
             strMealThumb: meal.strMealThumb
           })
