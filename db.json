@@ -1,29 +1,3 @@
 {
-  "mealPlan": [
-    {
-      "id": "53065",
-      "strMeal": "Sushi",
-      "strMealThumb": "https://www.themealdb.com/images/media/meals/g046bb1663960946.jpg"
-    },
-    {
-      "id": "52807",
-      "strMeal": "Baingan Bharta",
-      "strMealThumb": "https://www.themealdb.com/images/media/meals/urtpqw1487341253.jpg"
-    },
-    {
-      "id": "52819",
-      "strMeal": "Cajun spiced fish tacos",
-      "strMealThumb": "https://www.themealdb.com/images/media/meals/uvuyxu1503067369.jpg"
-    },
-    {
-      "id": "52894",
-      "strMeal": "Battenberg Cake",
-      "strMealThumb": "https://www.themealdb.com/images/media/meals/ywwrsp1511720277.jpg"
-    },
-    {
-      "id": "52880",
-      "strMeal": "McSinghs Scotch pie",
-      "strMealThumb": "https://www.themealdb.com/images/media/meals/vssrtx1511557680.jpg"
-    }
-  ]
+  "mealPlan": []
 }
